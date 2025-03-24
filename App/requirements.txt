@@ -1,5 +1,7 @@
+python==3.10
 streamlit
-scikit-learn
 pandas
 numpy
-tensorflow
+tensorflow-cpu
+scikit-learn
+tornado==6.2
