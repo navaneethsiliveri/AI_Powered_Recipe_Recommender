@@ -10,8 +10,6 @@ from sklearn.decomposition import PCA
 import tensorflow as tf
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Dense
-
-icon = Image.open("chef.jpg")
 st.set_page_config(layout='centered', page_title='AI-Powered Recipe Recommender', page_icon=icon)
 
 # Let's upload the Painted Ladies image:
